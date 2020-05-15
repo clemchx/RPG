@@ -1,0 +1,40 @@
+body{
+}
+
+#content{
+display: block;
+width: 100%;
+height: 100%;
+}
+
+#creation{
+visibility: hidden;
+}
+
+#validerPersonnage{
+visibility: hidden;
+}
+
+#equipment{
+visibility: hidden;
+}
+
+#validerEquipment{
+visibility: hidden;
+}
+
+#valider{
+visibility: hidden;
+}
+
+#start {
+visibility: hidden;
+}
+
+#taverne{
+visibility: hidden;
+}
+
+#getOutTaverne{
+visibility: hidden;
+}

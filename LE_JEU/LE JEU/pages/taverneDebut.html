@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RPG</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../style/taverneDebut.css" />
+	</head>
+	
+	<body>
+		<div id="content">
+			
+			<button id="beginCreation">On commence la création de votre personnage</button>
+			
+			<div id="creation">
+				
+				<p>Points de vie</p>
+				<div id="pv"></div>
+				
+				<p>Force</p>
+				<div id="strength"></div>
+				
+				<p>Defense</p>
+				<div id="defense"></div>
+				
+				<p>Sagesse</p>
+				<div id="wisdom"></div>
+				
+				<p>Argent</p>
+				<div id="money"></div>
+				
+				<button id="generator">Générer les statistiques</button>
+
+			</div>
+			
+			<div id="valider">
+				<p>Nom</p>
+				<div id="nom"></div>
+				<input id="name" type="text" />
+				<button id="validerPersonnage">Valider</button>
+			</div>
+			
+			<div id="equipment">
+				<div>
+					<p>
+						Epée Longue</br>
+						Force minimale : 7</br>
+						Sagesse minimale : 2</br>
+						Dégats : 13</br>
+						Parade : réduit de 40% les attaques</br>
+						Attaques lentes, impossibilité d'attquer pendant un tour après l'attaque</br>
+						Prend les deux mains, impossibilité de porter un bouclier avec</br>
+						Trop lourde et prend trop de place, impossibilité de prendre un arc ou un bâton de magicien avec</br>
+					</p>
+					<button>Epée Longue</button>
+				</div>
+				
+				<div>
+					<p>
+						Epée standarde</br>
+						force minimale : 4</br>
+						Sagesse minimale : 3</br>
+						Dégat : 7</br>
+						Parade : réduit de 10% les attaques</br>
+					</p>
+					<button>Epée</button>
+				</div>
+				
+				<div>
+					<p>
+						Dague</br>
+						Force minimale : 2</br>
+						Sagesse minimale : 4</br>
+						Dégats : 13</br>
+						Parade : réduit de 2% les attaques</br>
+						13 points d'attaque quand attaque discrète mais plus que 3 points lors d'attaques de front</br>
+					</p>
+					<button>Dague</button>
+				</div>
+				
+				<div>
+					<p>
+						Bouclier</br>
+						Force minimale : 4</br>
+						Sagesse minimale : 3</br>
+						Dégats : 5</br>
+						Parade : réduit de 90% les attaques</br>
+						ne peut pas être combiné avec l'arc ni le bâton de magicien mais marche très bien avec dague et épée</br>
+					</p>
+					<button>Bouclier</button>
+				</div>
+				
+				<div>
+					<p>
+						Arc</br>
+						Force minimale : 5</br>
+						Sagesse minimale : 5</br>
+						Dégats : 15</br>
+						Parade : réduit de 5% les attaques</br>
+						peut être utilisé en attaques discrète comme de front</br>
+					</p>
+					<button>Arc</button>
+				</div>
+				
+				<div>
+					<p>
+						Bâton de Magicien</br>
+						Force minimale : 1</br>
+						Sagesse minimale : 7</br>
+						Dégats : 18</br>
+						Parade : réduit de 5% les attaques</br>
+						peut être utilisé en attaques discrète comme de front</br>
+					</p>
+					<button>Bâton de magicien</button>
+				</div>
+			</div>
+			
+			<button id="validerEquipment">Valider l'équipement</button>
+
+			<button id="start">Appuyez pour commencer</button>
+			
+			<div id="taverne">
+				<button id="equipeBourrin">Aller voir table 1</button>
+				<button id="equipeSneak">Aller voir table 2</button>
+				<button id="equipeMixe">Parler au Tavernier</button>
+			</div>
+			
+			<div id="equipeMixte">
+				
+			</div>
+			
+			<button id="getOutTaverne" onclick="window.location.href = 'village.html';">Sortir de la taverne</button>		
+		</div>
+		
+		<script src="../scripts/jquery-3.5.0.js"></script>
+		<script src="../scripts/classes.js"></script>
+		<script src="../scripts/armes.js"></script>
+		<script src="../scripts/taverneDebut.js"></script>
+	
+	</body>
+</html>
